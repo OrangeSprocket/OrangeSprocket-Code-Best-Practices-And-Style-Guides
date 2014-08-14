@@ -136,7 +136,7 @@ body {
 
 If you run into issues with the footer not being pushed down far enough, inspect the `<html>`, `<body>`, wrapper, and content divs to ensure that they are all filling 100% of the page height **(not just window height)**. 
 
-Floated containers throughout the page can cause the upper containing divs to not expand to full height. To remedy this, you can place a `.clearfix` div inside the bottom of the last container element under the floated content.
+Floated child elements throughout the page can cause the top-level containing divs to not expand to full height. To remedy this, you can place a `.clearfix` div inside the bottom of the last container element under the floated content.
 
 For reference and further explanation of what's happening, [http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/](this article) was sourced to compile this small tutorial.
 
