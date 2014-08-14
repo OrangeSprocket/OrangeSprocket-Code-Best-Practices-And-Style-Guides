@@ -45,7 +45,28 @@ Exception: If you need something to be on the right side of the screen, you may 
 
 This can also make it hard for others to read what your code is doing. There is always a way to address a css issue with a corresponding class rather than an inline style. Even if you think its only a small deal, it shoudl be avoided at all costs.
 
-###Never use !important
+###Never use `!important`
 ***
 
-If you find that you need !important, you are probably down the css rabit hole. This means that you have so many styles that you are constantly not knowing which one takes precedence. Once one !important is resolved, other !important tags can also behave weirdly. This will cause you many more headaches than the time it might save you in the short term.
+If you find that you need `!important`, you are probably down the css rabbit hole. This means that you have so many styles that you are constantly not knowing which one takes precedence. Once one `!important` is resolved, other `!important` tags can also behave weirdly. This will cause you many more headaches than the time it might save you in the short term. In short: don't use `!important`.
+
+If you're not sure why your CSS isn't being applied, remember css works on a **specificity scale**, meaning, quite simply, *somewhere else in the CSS, there is a selector that is more **specific** than the one you are attemping to write*. Simply make yours more specific, and your styles will take precendance without needing `!important`
+
+```css
+
+// an example style that might cause precedence issues
+body .page-wrapper a {
+  color: red;
+}
+
+// this isn't as **specific** as the other style, so it will get overwritten by color: red;
+.main-content a {
+  color: blue; // gets overwritten by first style
+}
+
+// to make it more **specific**, be more specific by adding a class or id, or by being more specific about what the anchor tag is contained within
+.main-content a.custom {
+  color: blue; // doesn't get overwritten by first style
+}
+
+```
