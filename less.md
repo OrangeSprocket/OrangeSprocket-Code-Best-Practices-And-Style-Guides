@@ -147,13 +147,13 @@ Very useful little fix that can help solve container height css issues.
 
 ```css
 .clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
-	}
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 .clearfix { display: inline-table; }
 /* Hides from IE-mac \*/
 * html .clearfix { height: 1%; }
