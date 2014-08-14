@@ -7,7 +7,7 @@
 - opening braces on selector definition line
 - closing braces on own lines
 
-```less
+```sass
 
 body {
 
