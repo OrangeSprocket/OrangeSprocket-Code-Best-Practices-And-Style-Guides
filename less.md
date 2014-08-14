@@ -1,3 +1,37 @@
+###General Style Example
+***
+
+- two space indentation
+- blank line between new selectors
+- mixins at the top of a selector
+- opening braces on selector definition line
+- closing braces on own lines
+
+```less
+
+body {
+
+  &.page-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    
+    .some-nested-element {
+      // some nested styles
+    }
+    
+    #some-other-nested-element {
+      .some-mixin(red);
+      padding: 20px;
+    }
+  }
+}
+
+.some-mixin(@color) {
+  color: @color;
+}
+
+```
+
 ###Never use only one stylesheet
 ***
 
