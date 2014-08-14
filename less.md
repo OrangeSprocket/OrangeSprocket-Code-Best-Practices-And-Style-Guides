@@ -34,7 +34,7 @@ body {
 
 ###Avoid z-index where possible
 ***
-~[](http://i.imgur.com/O6OmCuE.png)
+![](http://i.imgur.com/O6OmCuE.png)
 
 ###Never use only one stylesheet
 ***
