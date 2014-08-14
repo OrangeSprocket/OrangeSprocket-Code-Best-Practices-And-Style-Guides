@@ -1,7 +1,7 @@
 ###Never use only one stylesheet
 ***
 
-There is never a reason for a file to have a table of contents or even be more than 500 lines of code. Especially in css. Each view or template should use its own css file and reference common css files in a global scope. IE: If you have a style on the home page that is unique, don't make it available on every page. Have you css be compiled down to a single file in the end if you like but keep things modular and clear. All css files should be ready for re-use in future projects and in future views.
+There is never a reason for a file to have a table of contents or even be more than 500 lines of code. Especially in css. Each view or template should use its own css file and reference common css files in a global scope. CSS will be compiled down to a single file in the end, so there is no reason not to divide your CSS files up to be modular and clear. This allows CSS files to be ready for re-use in future projects and in future views.
 
 ###`float: left;` vs `display:inline-block;` for layout positioning
 ***
