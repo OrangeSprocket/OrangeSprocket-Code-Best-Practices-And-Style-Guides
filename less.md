@@ -52,6 +52,8 @@ You may also need to use `vertical-align:top;` in order to get the desired resul
 
 **Exception:** If you need something to be on the right side of the screen, you may need `float: right;` in order for it to be pressed against your outer boundaries. `float` is for exactly this: **floating** (having other elements "wrap around") an element (like an image with a paragraph wrapped around it, newspaper style). This is more or less the only time you will need `float`.
 
+**Note** If you need to get multiple items side my side. `float: left` is one way to achieve this... following by `float: left` on the parent container... and it's parent... etc. A preferable solution is to use display inline block, but this can result to small spaces inbetween each element. There are multiple ways to get around this, all of which seem kinda hacky, but the simplest way is (in Nick's opinion) is to add a `margin-left: -4px` to the inline-block elements to pull them back together. Check out [here](http://css-tricks.com/fighting-the-space-between-inline-block-elements/) for some more solutions.
+
 ###Never use inline styling
 ***
 
