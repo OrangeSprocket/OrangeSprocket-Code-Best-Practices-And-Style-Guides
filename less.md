@@ -59,12 +59,12 @@ body .page-wrapper a {
   color: red;
 }
 
-// this isn't as **specific** as the other style, so it will get overwritten by color: red;
+// this isn't as specific as the other style, so it will get overwritten by color: red;
 .main-content a {
   color: blue; // gets overwritten by first style
 }
 
-// to make it more **specific**, be more specific by adding a class or id, or by being more specific about what the anchor tag is contained within
+// to make it more specific, be more specific by adding a class or id, or by being more specific about what the anchor tag is contained within
 .main-content a.custom {
   color: blue; // doesn't get overwritten by first style
 }
