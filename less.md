@@ -138,7 +138,7 @@ If you run into issues with the footer not being pushed down far enough, inspect
 
 Floated child elements throughout the page can cause the top-level containing divs to not expand to full height. To remedy this, you can place a `.clearfix` div inside the bottom of the last container element under the floated content.
 
-For reference and further explanation of what's happening, [http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/](this article) was sourced to compile this small tutorial.
+For reference and further explanation of what's happening, [this article](http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/) was sourced to compile this small tutorial.
 
 ###Reliable, new clearfix
 ***
@@ -177,6 +177,7 @@ Place a `<div class="clearfix"></div>` right before the closing tag of a contain
 Learning Links
 --------------
 
+- [http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/](http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/)
 - [http://www.smashingmagazine.com/2010/11/02/the-important-css-declaration-how-and-when-to-use-it/](http://www.smashingmagazine.com/2010/11/02/the-important-css-declaration-how-and-when-to-use-it/)
 - [http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
 - [http://learnlayout.com/inline-block.html](http://learnlayout.com/inline-block.html)
