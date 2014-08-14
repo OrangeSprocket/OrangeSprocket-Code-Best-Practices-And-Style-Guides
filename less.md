@@ -84,6 +84,62 @@ body .page-wrapper a {
 
 ```
 
+###Keeping the footer at the bottom of the page (CSS-only)
+***
+
+This is a common, often frustrating problem which can be solved with simple css and html, *no hacks or javascript required*. Here is the html for the most basic of examples:
+
+```html
+<body>
+	<div id="wrapper">
+		<div id="header"></div>
+		<div id="content"></div>
+		<div id="footer"></div>
+	</div>
+</body>
+```
+
+The wrapper is a container for all the page content, which is here split into header, content and footer. The main thing here is that the wrapper must be directly inside the `<body>` element as shown. Everything else is taken care of by the css.
+
+```css
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	padding: 10px;
+	background: #5ee;
+}
+
+#content {
+	padding: 10px;
+	padding-bottom: 80px; /* Height of the footer element */
+}
+
+#footer {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #ee5;
+}
+```
+
+If you run into issues with the footer not being pushed down far enough, inspect the `<html>`, `<body>`, wrapper, and content divs to ensure that they are all filling 100% of the page height **(not just window height)**. 
+
+Floated containers throughout the page can cause the upper containing divs to not expand to full height. To remedy this, you can place a `.clearfix` div inside the bottom of the last container element under the floated content.
+
+For reference and further explanation of what's happening, [http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/](this article) was sourced to compile this small tutorial.
+
 Learning Links
 --------------
 
