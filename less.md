@@ -3,6 +3,30 @@
 
 There is never a reason for a file to have a table of contents or even be more than 500 lines of code. Especially in css. Each view or template should use its own css file and reference common css files in a global scope. IE: If you have a style on the home page that is unique, don't make it available on every page. Have you css be compiled down to a single file in the end if you like but keep things modular and clear. All css files should be ready for re-use in future projects and in future views.
 
+###Reference Elements in a unique Way
+***
+
+If you need to style an ```<a>``` tag in a view, don't use the generic a{} in your css file. This means that all future ```<a>``` tags will inherit this style and may reach out to other pages. If you must do this, make sure that the parent container is referenced in a unique way. IE:
+
+.less
+```
+.link-list{
+  a{
+    backgroud-color:red;
+  }
+}
+```
+
+.html
+
+```
+<div class="link-list">
+  <a href="foo.com"></a>
+  <a href="bar.com"></a>
+  <a href="zoo.com"></a>
+</div>
+```
+
 ###Float:left vs display:inline-block
 ***
 
