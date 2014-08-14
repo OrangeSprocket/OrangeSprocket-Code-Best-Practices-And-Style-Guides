@@ -6,22 +6,22 @@ There is never a reason for a file to have a table of contents or even be more t
 ###`float: left;` vs `display:inline-block;` for layout positioning
 ***
 
-There are a myriad of reasons why it is preferable to use Inline-block instead of Float but the main reason is: your code will be viewed by others and modified by others. Float is very fragile, in that when you or somebody else attempts to add something **later on**, the entire pages layout can break when adding a single element that isn't in the "float spam". Several Floats on a single page can make it very difficult for others to use your code. Very difficult.
+There are a myriad of reasons why it is preferable to use `inline-block` instead of `float` but the main reason is: your code will be viewed by others and modified by others. `float` is very fragile, in that when you or somebody else attempts to add something **later on**, the entire pages layout can break when adding a single element that isn't in the "float spam", or if a `clearfix` is forgotten. Simply: it's more error prone and harder to maintain. Several `float`'s on a single page can make it very difficult for others to use your code.
 
-`display: inline-block;` quite literally accomplishes absolutely everything that `float: left;` accomplishes, **without** the entire page layout being "fragile" (breakable by a single new thing being added).
+`display: inline-block;` quite literally accomplishes **absolutely everything that** `float: left;` **accomplishes**, **without** the entire page layout being "fragile" (breakable by a single new thing being added or forgotten).
 
 BAD: `<div style="float: left;"></div>`
 
 GOOD: `<div style="display: inline-block;"></div>`
 
-You may also need to use "vertical-align:top;" in order to get the desired result in some cases.
+You may also need to use `vertical-align:top;` in order to get the desired result in some cases.
 
-**Exception:** If you need something to be on the right side of the screen, you may need float: right in order for it to be pressed against your outer boundaries. Float is for exactly this: floating BLOCK or INLINE-BLOCK elements **around** a floated element (like an image with a paragraph wrapped around it, newspaper style). This is more or less the only time you will need float.
+**Exception:** If you need something to be on the right side of the screen, you may need `float: right;` in order for it to be pressed against your outer boundaries. `float` is for exactly this: **floating** (having other elements "wrap around") an element (like an image with a paragraph wrapped around it, newspaper style). This is more or less the only time you will need `float`.
 
 ###Never use inline styling
 ***
 
-This can also make it hard for others to read what your code is doing. There is always a way to address a css issue with a corresponding class rather than an inline style. Even if you think its only a small deal, it should be avoided at all costs.
+This can also make it hard for others to read what your code is doing. There is always a way to address a css issue with a corresponding class/id/specificity rather than an inline style. Even if you think its only a small deal, it should be avoided at all costs.
 
 ###Never use `!important`
 ***
@@ -31,7 +31,6 @@ If you find that you need `!important`, you are probably down the css rabbit hol
 If you're not sure why your CSS isn't being applied, remember css works on a **specificity scale**, meaning, quite simply, *somewhere else in the CSS, there is a selector that is more **specific** than the one you are attemping to write*. Simply make yours more specific, and your styles will take precendance without needing `!important`
 
 ```css
-
 // an example style that might cause precedence issues
 body .page-wrapper a {
   color: red;
