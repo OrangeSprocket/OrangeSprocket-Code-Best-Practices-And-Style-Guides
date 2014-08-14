@@ -21,7 +21,7 @@ You may also need to use "vertical-align:top;" in order to get the desired resul
 ###Never use inline styling
 ***
 
-This can also make it hard for others to read what your code is doing. There is always a way to address a css issue with a corresponding class rather than an inline style. Even if you think its only a small deal, it shoudl be avoided at all costs.
+This can also make it hard for others to read what your code is doing. There is always a way to address a css issue with a corresponding class rather than an inline style. Even if you think its only a small deal, it should be avoided at all costs.
 
 ###Never use `!important`
 ***
@@ -48,3 +48,15 @@ body .page-wrapper a {
 }
 
 ```
+
+Learning Links
+--------------
+
+[http://www.smashingmagazine.com/2010/11/02/the-important-css-declaration-how-and-when-to-use-it/](http://www.smashingmagazine.com/2010/11/02/the-important-css-declaration-how-and-when-to-use-it/)
+[http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
+[http://learnlayout.com/inline-block.html](http://learnlayout.com/inline-block.html)
+[http://www.sitepoint.com/give-floats-the-flick-in-css-layouts/](http://www.sitepoint.com/give-floats-the-flick-in-css-layouts/)
+[http://designshack.net/articles/css/farewell-floats-the-future-of-css-layout/](http://designshack.net/articles/css/farewell-floats-the-future-of-css-layout/)
+[http://designshack.net/articles/css/whats-the-deal-with-display-inline-block/](http://designshack.net/articles/css/whats-the-deal-with-display-inline-block/)
+[http://straightedgelinux.com/blog/howto/float.html](http://straightedgelinux.com/blog/howto/float.html)
+[http://www.vanseodesign.com/css/inline-blocks/](http://www.vanseodesign.com/css/inline-blocks/)
