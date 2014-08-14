@@ -2,9 +2,9 @@
 
 There are a lot of reasons why it is preffered to use Inline-block instead of float but the main reason is that your code will be viewed by others and modified by otheres. Several Floats on a single page can make it very difficult for others to use your code.
 
-BAD: <div style="float: left;"></div>
+BAD: ```<div style="float: left;"></div>```
 
-GOOD: <div style="display: inline-block;"></div>
+GOOD: ```<div style="display: inline-block;"></div>```
 
 You may also need to use "vertical-align:top;" in order to get the desired result.
 
