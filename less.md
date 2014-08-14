@@ -59,7 +59,7 @@ body .page-wrapper a {
   color: red;
 }
 
-// this isn't as specific as the other style, so it will get overwritten by color: red;
+// this isnt as specific as the other style, so it will get overwritten by color: red;
 .main-content a {
   color: blue; // gets overwritten by first style
 }
