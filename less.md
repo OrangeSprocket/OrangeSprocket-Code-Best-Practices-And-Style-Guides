@@ -140,6 +140,40 @@ Floated containers throughout the page can cause the upper containing divs to no
 
 For reference and further explanation of what's happening, [http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/](this article) was sourced to compile this small tutorial.
 
+###Reliable, new clearfix
+***
+
+Very useful little fix that can help solve container height css issues.
+
+```css
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+```
+
+Place a `<div class="clearfix"></div>` right before the closing tag of a container with floated children to allow the container to expand to the correct height. Here's a very basic example of how to use:
+
+```html
+<div id="content">
+  <div class="floated-div">
+    <div class="more-content">
+    
+    </div>
+  </div>
+  <div class="clearfix></div>
+</div>
+```
+
 Learning Links
 --------------
 
