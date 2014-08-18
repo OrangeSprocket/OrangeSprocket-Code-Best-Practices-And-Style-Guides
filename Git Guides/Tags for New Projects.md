@@ -1,3 +1,5 @@
+This is the list of standardized tags to be added with each new project.
+
 - BLOCKED - e11d21 - When the programmers cannot make any progress on the issue or feature until there is Mgmt/Client clarification or feedback.
 - Bug - 207de5 - A bug
 - Code clean-up / maintenance / refactoring - D9D9D9 - Not ideal code that should be refactored to be more DRY/Modular/Safer before release
