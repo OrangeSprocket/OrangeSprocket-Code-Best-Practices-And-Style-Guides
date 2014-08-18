@@ -1,7 +1,8 @@
-Code Style Guided
------------------
 
-A style guide for code @ OrangeSprocket
+Language Style Guides
+---------------------
+
+Style guides for code @ OrangeSprocket
 
 [HTML Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/HTML-Formatting-Guide.md)
 
@@ -16,7 +17,6 @@ Angular Guides
 --------------
 
 A best-practices and formatting guide for angular apps @ OrangeSprocket
-
 [Testing Angular](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Testing%20Angular.md)
 
 [Writing Controllers](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Controllers.md)
@@ -30,8 +30,6 @@ A best-practices and formatting guide for angular apps @ OrangeSprocket
 [Writing Routes](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Routes.md)
 
 [Writing Services](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Services.md)
-
-[Writing Modules](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Modules.md)
 
 
 Git Guides
