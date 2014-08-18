@@ -17,6 +17,7 @@ Angular Guides
 --------------
 
 A best-practices and formatting guide for angular apps @ OrangeSprocket
+
 [Testing Angular](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Testing%20Angular.md)
 
 [Writing Controllers](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Controllers.md)
