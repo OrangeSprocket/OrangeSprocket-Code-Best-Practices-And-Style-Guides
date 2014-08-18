@@ -1,38 +1,39 @@
-OrangeSprocket Code Style Guide
--------------------------------
+Code Style Guided
+-----------------
 
 A style guide for code @ OrangeSprocket
 
-[html](https://github.com/OrangeSprocket/OrangeSprocket-Code-Style-Guide/blob/master/html.md)
+[HTML Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/HTML-Formatting-Guide.md)
 
-[javascript](https://github.com/OrangeSprocket/OrangeSprocket-Code-Style-Guide/blob/master/javascript.md)
+[JavaScript Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/JavaScript-Style-Guide.md)
 
-[less](https://github.com/OrangeSprocket/OrangeSprocket-Code-Style-Guide/blob/master/less.md)
+[LESS Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/Less-Style-Guide.md)
 
-[php](https://github.com/OrangeSprocket/OrangeSprocket-Code-Style-Guide/blob/master/php.md)
+[PHP Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/PHP-Style-Guide.md)
 
 
-OrangeSprocket Angular Best Practices Guide
--------------------------------------------
+Angular Guides
+--------------
 
-A best-practices guide for angular apps @ OrangeSprocket
+A best-practices and formatting guide for angular apps @ OrangeSprocket
 
-[testing](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/testing.md)
+[Testing Angular](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Testing%20Angular.md)
 
-[controller](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/controller.md)
+[Writing Controllers](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Controllers.md)
 
-[directive](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/directive.md)
+[Writing Directives](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Directives.md)
 
-[init](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/init.md)
+[Writing .run()](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20.run().md)
 
-[model](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/model.md)
+[Writing Factory Models](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Factory%20Models.md)
 
-[routes](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/routes.md)
+[Writing Routes](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Routes.md)
 
-[service](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/service.md)
+[Writing Services](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Services.md)
 
-Learning Links
--------------------------------------------
+[Writing Modules](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Angular%20Guides/Writing%20Modules.md)
 
-[Writing Testable Javascript](https://www.youtube.com/watch?v=OzjogCFO4Zo)
 
+Git Guides
+----------
+[Tags for new projects](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Git%20Guides/Tags%20for%20New%20Projects.md)
