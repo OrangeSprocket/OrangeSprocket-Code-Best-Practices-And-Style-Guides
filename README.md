@@ -1,4 +1,4 @@
-OrangeSprocket Code Style Guide
+Language Style Guides
 -------------------------------
 
 A style guide for code @ OrangeSprocket
@@ -12,24 +12,24 @@ A style guide for code @ OrangeSprocket
 [php](https://github.com/OrangeSprocket/OrangeSprocket-Code-Style-Guide/blob/master/php.md)
 
 
-OrangeSprocket Angular Best Practices Guide
+Angular Best-Practices Guides
 -------------------------------------------
 
 A best-practices guide for angular apps @ OrangeSprocket
 
-[testing](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/testing.md)
+[testing](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/testing.md)
 
-[controller](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/controller.md)
+[controller](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/controller.md)
 
-[directive](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/directive.md)
+[directive](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/directive.md)
 
-[init](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/init.md)
+[init](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/init.md)
 
-[model](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/model.md)
+[model](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/model.md)
 
-[routes](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/routes.md)
+[routes](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/routes.md)
 
-[service](https://github.com/OrangeSprocket/OrangeSprocket-Angular-Best-Practices-Guide/blob/master/service.md)
+[service](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/tree/master/Angular%20Guides/service.md)
 
 Learning Links
 -------------------------------------------
