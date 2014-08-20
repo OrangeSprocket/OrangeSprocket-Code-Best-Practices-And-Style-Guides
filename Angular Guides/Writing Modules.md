@@ -4,8 +4,8 @@ Defining a module should be done as follows...
 
 ```javascript
 OSAngularApp.module('moduleName',
-  ['$someBuiltInDependancy', 'someService', 'someModel'
-  function($someBuiltInDependancy, someService, someModel) {
+['$someBuiltInDependancy', 'someService', 'someModel'
+function($someBuiltInDependancy, someService, someModel) {
 
   // logic
 
