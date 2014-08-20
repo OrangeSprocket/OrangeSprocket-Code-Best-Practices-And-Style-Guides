@@ -10,8 +10,6 @@ Style guides for code @ OrangeSprocket
 
 [LESS Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/Less-Style-Guide.md)
 
-[PHP Style Guide](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Language%20Style%20Guides/PHP-Style-Guide.md)
-
 
 Angular Guides
 --------------
