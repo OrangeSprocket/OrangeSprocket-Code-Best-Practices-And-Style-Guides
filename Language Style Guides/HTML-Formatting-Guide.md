@@ -1,6 +1,30 @@
+###Semantics
+***
+Always use semantically correct elements when possible. This means things like `<nav>` containing your `<a>` navigation links, not an arbitrary `<ul><li>` setup. That's just one example, we should add more to these docs later. Abiding by semantics is important not only for code readability, but also for accessibility considerations for disabled users.
+
+
+```html
+
+// bad
+<ul>
+  <li><a href="/">Nav link</a></li>
+  <li><a href="/">Nav link</a></li>
+  <li><a href="/">Nav link</a></li>
+  <li><a href="/">Nav link</a></li>
+</ul>
+
+// good
+<nav>
+  <a href="/">Nav link</a>
+  <a href="/">Nav link</a>
+  <a href="/">Nav link</a>
+  <a href="/">Nav link</a>
+</nav>
+
+```
+
 ###Indentation
 ***
-
 Indent every child element, not including children like `<i>` and `<span`>, which are semantically inline. Pretty straight forward.
 
 ```html
