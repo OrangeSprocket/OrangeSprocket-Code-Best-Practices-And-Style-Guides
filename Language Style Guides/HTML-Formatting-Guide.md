@@ -25,7 +25,7 @@ Always use semantically correct elements when possible. This means things like `
 
 ###Indentation
 ***
-Indent every child element, not including children like `<i>` and `<span`>, which are semantically inline. Pretty straight forward.
+Indent every child element, not including children like `<i>` and `<span>`, which are semantically inline. Pretty straight forward.
 
 ```html
 
