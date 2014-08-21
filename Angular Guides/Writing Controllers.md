@@ -5,6 +5,7 @@ myApp.controller('SomeControllerName',
 function($angularDependency, $otherAngularDependency, someService, someModel) {
   
   // Controller Logic
+
   window.SomeControllerScope = $scope;
 }]);
 ```
