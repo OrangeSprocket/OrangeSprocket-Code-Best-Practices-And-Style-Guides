@@ -5,7 +5,7 @@ myApp.controller('SomeControllerName',
 function($angularDependency, $otherAngularDependency, someService, someModel) {
   
   // Controller Logic
-  
+  window.SomeControllerScope = $scope;
 }]);
 ```
 Controllers act like the interface or glue between your models (or page data) and your templates (views). This is done by adding things to the `$scope` object, which can be injected into a controller just like any other dependancy (see the example above).
