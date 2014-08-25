@@ -3,4 +3,6 @@ sudo npm uninstall -g sails; sudo npm uninstall sails; sudo npm uninstall -g sai
 
 ###Too Many Files Error:
 
-$ launchctl limit maxfiles 2048 2048 && ulimit -n 2048
+Enter this is command prompt
+
+launchctl limit maxfiles 2048 2048 && ulimit -n 2048
