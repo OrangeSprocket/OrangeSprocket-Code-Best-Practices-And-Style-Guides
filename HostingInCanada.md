@@ -6,7 +6,9 @@ ssh root@234.234.234.234
 
 --enter password
 
-https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit
+#Install Node on the server
+
+[Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit)
 
 do that stuff
 
