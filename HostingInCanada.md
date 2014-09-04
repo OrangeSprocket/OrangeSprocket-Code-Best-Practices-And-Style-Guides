@@ -111,4 +111,6 @@ sails lift --prod --verbose (This will get the server running on port 80)
 
 Need to have cron jobs to save the db to a folder twice a day or something
 
+#Auto upload the new code on push to master
+
 #Then set up the dns settings
