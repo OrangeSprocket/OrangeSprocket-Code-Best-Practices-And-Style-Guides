@@ -40,6 +40,12 @@ yum replace mysql --replace-with mysql55w
 yum install mysql55w mysql55w-server
 service mysqld start
 ```
+
+###Need to set up cron jobs to back up the data
+
+Something like this: 0 1 * * * root mysqldump -u webapp -p4570rangeSpr0cket --all-databases | gzip > /var/www/dbs/database_`date +"\%m-\%d-\%h"`.sql.gz
+that file exists where
+and is called what
    
 #Set up the repo to host in production
 
