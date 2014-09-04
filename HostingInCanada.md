@@ -26,6 +26,8 @@ sudo npm install -g bower
 
 bower install
 
+(You may need: bower --allow-root install pure normalize-css angular html5shiv angular-bootstrap angular-ui-router angular-cookies underscore bluebird) or something similar
+
 forever node app.js
 
 #Then set up the database
