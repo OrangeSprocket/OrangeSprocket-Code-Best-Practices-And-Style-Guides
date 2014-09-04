@@ -114,3 +114,5 @@ Need to have cron jobs to save the db to a folder twice a day or something
 #Auto upload the new code on push to master
 
 #Then set up the dns settings
+
+Wherever you are setting up the domain records (whether a ____.orangesprocket.com address, or an actual domain) simply create an A Record for the IP address of your server.
