@@ -8,17 +8,17 @@ ssh root@234.234.234.234
 
 #Install Node on the server
 
-[Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit)
+Follow this [Tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-run-a-node-js-app-on-centos-6-4-64bit)
 
-do that stuff
+#Clone the code you want to host
 
-Git clone the repo (You may need to add ssh keys https://help.github.com/articles/generating-ssh-keys) 
+Git clone the repo (You may need to add [ssh keys](https://help.github.com/articles/generating-ssh-keys)) 
 
-cd repo
+cd into your repo
 
-sudo npm install -g forever
+sudo npm install -g forever (Needed to run the server)
 
-npm install -g npm
+npm install -g npm (Update to the latest npm version)
 
 sudo npm install -g sails
 
@@ -28,17 +28,19 @@ forever node app.js
 
 ##Need to install mysql
 
+```
 rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
-   59  yum install mysql.`root -i` yum-plugin-replace
-   60  yum replace mysql --replace-with mysql55w
-   61  yum install mysql
-
+yum install mysql.`root -i` yum-plugin-replace
 yum replace mysql --replace-with mysql55w
-   64  yum install mysql55w mysql55w-server
-   65  service mysqld start
-   
-   
+yum install mysql
+```
 
+```
+yum replace mysql --replace-with mysql55w
+yum install mysql55w mysql55w-server
+service mysqld start
+```
+   
 #Set up the repo to host in production
 
 touch local.js
