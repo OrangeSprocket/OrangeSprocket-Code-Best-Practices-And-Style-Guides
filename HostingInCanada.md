@@ -22,6 +22,10 @@ npm install -g npm (Update to the latest npm version)
 
 sudo npm install -g sails
 
+sudo npm install -g bower
+
+bower install
+
 forever node app.js
 
 #Then set up the database
