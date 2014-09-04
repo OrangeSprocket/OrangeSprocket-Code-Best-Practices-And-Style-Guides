@@ -1,3 +1,5 @@
+#Connect and Install
+
 We host in canada on http://www.netelligent.ca/datacentre/
 
 ssh root@234.234.234.234
@@ -20,6 +22,10 @@ sudo npm install -g sails
 
 forever node app.js
 
-Then set up the database
+#Then set up the database
 
-Then set up the dns settings
+Need to install mysql
+
+Need to have cron jobs to save the db to a folder twice a day or something
+
+#Then set up the dns settings
