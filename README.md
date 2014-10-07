@@ -1,4 +1,4 @@
-Project Workflow Guide
+Project Workflow
 ---------------------
 When addressing bugs (or writing features on new projects where we track those stories via issues), the process from start to finish is as follows:
 
