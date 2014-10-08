@@ -7,7 +7,7 @@ When addressing bugs (or writing features on new projects where we track those s
 3.  Pull the latest code from Master
 4.  Create a branch with a name that contains your initials, and some purpose of the branch (for example: `SS-bug-fixes` or `JO-bug-fixes`)
 5.  Perform a `git commit` for every feature/issue you fix on your branch. For example `git commit -am "Fixes issue #541"`.
-6.  Once you are done working on your branch and are ready to merge it into master, create a `pull request` on github.com. In the description of the pull request, enter `Fixes #541, Fixes #538, Fixes #522` (etc, etc) for everything this branch has completed.
+6.  Once you are done working on your branch and are ready to merge it into master, create a `pull request` on github.com. 
 7.  **Tag the issues that you addressed** in your pull request with `Waiting for Merge`
 8.  Get another member of the team to review your pull request, and if it passes inspection, they will merge it into master.
 9.  Upon merging it, assuming you wrote proper descriptions / commit messages, **all of the issues you addressed should automatically close** on github.com.
