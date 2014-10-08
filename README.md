@@ -49,10 +49,3 @@ A best-practices and formatting guide for angular apps @ OrangeSprocket
 Git Guides
 ----------
 [Tags for new projects](https://github.com/OrangeSprocket/OrangeSprocket-Code-Best-Practices-And-Style-Guides/blob/master/Git%20Guides/Tags%20for%20New%20Projects.md)
-
-
-Meeting Notes Oct 7 2014
-----------
-- Workflow for projects (see whiteboard)
-- Set up dploy.io on all projects for automated staging deployment (or another service)
-- Set up automated notifications on errors in Node (research)
